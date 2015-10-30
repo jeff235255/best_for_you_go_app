@@ -1,0 +1,23 @@
+.login-container {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background: #fff;
+}
+
+.login-container  .logo-content {
+  height: 270px;
+  background: #3B4B69;
+  width: 100%;
+}
+
+.login-container  .logo-header {
+  padding-top: 70px;
+  text-align: center;
+}
+
+div.login-form {
+  width: 600px;
+  margin: 0 auto;
+}
+

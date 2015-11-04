@@ -15,6 +15,7 @@
       <h1>This is an application use Golang NET/HTTP package.</h1>
       <a href="https://github.com/jeff235255/api_users_management" target="_blank" class="button white"><i class="fa fa-download fa-lg"></i> Download</a>
       <a href="https://github.com/jeff235255/api_users_management" target="_blank" class="button white"><i class="fa fa-book fa-lg"></i> User Guide</a>
+      
     </header>
     <main>
       
@@ -23,7 +24,22 @@
       
     </footer>
     <nav>
-      
+      <div class="grid-container">
+        <div class="rows">
+          <div class="col-md-3 logo-container">
+           
+          </div>
+          <div class="col-md-9 nav-menu">
+            <a href="https://github.com/jeff235255"><i class="fa fa-github"></i> GitHub</a>
+            <a href="#"><i class="fa fa-file-text"></i> Blog</a>
+            <a href="#"><i class="fa fa-question-circle"></i> FAQ</a>
+            <a href="/sign_in"><i class="fa fa-sign-in"></i> Sign in</a>
+            <a href="/sign_up"><i class="fa fa-plus"></i> Sign up</a>
+            <a href="/" class=""><i class="fa fa-home"></i>Home</a>
+            </div>
+          </div>
+        </div>
+       
     </nav>
   </div>
 

@@ -16,7 +16,8 @@ body {
 }
 /* end common css style */
 
-/* sign up form */
+/************************************* sign up form *************************************/
+
 .login-container {
   padding: 0;
   margin: 0;
@@ -85,7 +86,7 @@ div.login-form {
   text-align: center;
   color: #fff;
   background-color: #3b5998;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .login-form .facebook-button i {
@@ -96,7 +97,7 @@ div.login-form {
   background-color: #d34836;
   text-align: center;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .login-form .google-button i {
@@ -136,4 +137,70 @@ div.login-form {
   outline: none;
 }
 
-/* end sign up form */
+/***************************** end sign up form ***************************/
+
+/***************************** css for landing page ************************/
+
+#landing-page nav {
+  background: rgba(0, 33, 50, .9);
+  box-shadow: none;
+  height: 65px;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+#landing-page header {
+  background-image: url('../images/hero.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: block;
+  background: rgba(0, 0, 0, .1);
+  padding: 150px 50px 100px;
+}
+
+#landing-page h1 {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+  max-width: 850px;
+  margin: 50px auto;
+}
+
+#landing-page header .white.white {
+  color: #096899;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, .3);
+  background: #FFF;
+  border: 1px solid #FFF;
+}
+
+#landing-page header .button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px 25px;
+  border-radius: 8px 1px 8px 1px;
+  font-size: 12px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  position: relative;
+  margin: 10px;
+  transition: all .2s;
+  outline: none;
+  background: #FFF;
+  color: #333;
+  border: 1px solid rgba(0, 128, 174, 0.3);
+  text-shadow: none;
+  cursor: pointer;
+}
+
+#landing-page header .white.white:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, .3);
+  color: #1FB3FF;
+}

@@ -26,6 +26,8 @@ type User struct {
 // MAIN FUNCTION, HANDLE ALL REQUEST FROM CLIENT
 func main() {
   http.HandleFunc("/", indexHandler)
+  http.HandleFunc("/sign_in", signinHandler)
+  http.HandleFunc("/sign_up", signupHandler)
   http.HandleFunc("/users", usersApiHandler)
   http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("css"))))
   http.Handle("/images/", http.StripPrefix("/images/", http.FileServer(http.Dir("images"))))
@@ -42,6 +44,23 @@ func main() {
 func indexHandler(res http.ResponseWriter, r *http.Request) {
   index := template.Must(template.ParseFiles("templates/index.gtpl"))
   index.Execute(res, nil)
+}
+
+// SIGN IN USER
+func signinHandler(res http.ResponseWriter, r *http.Request) {
+  sign_in := template.Must(template.ParseFiles("templates/sign_in.gtpl"))
+  sign_in.Execute(res, nil)
+}
+
+// SIGN UP USER
+func signupHandler(res http.ResponseWriter, r *http.Request) {
+  sign_up := template.Must(template.ParseFiles("templates/sign_up.gtpl"))
+  sign_up.Execute(res, nil)
+}
+
+// FORGOT PASSWORD
+func forgotPasswordHandler(res http.ResponseWriter, r *http.Request) {
+
 }
 
 // USERS API HANDLER

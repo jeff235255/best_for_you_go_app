@@ -11,6 +11,10 @@
   float: left;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 body {
   background: #f7f7f7;
 }
@@ -121,6 +125,9 @@ div.login-form {
   margin-bottom: 10px;
 }
 
+.login-form .sign-up {
+  color: #777;
+}
 
 #footer {
   display: block;
@@ -155,7 +162,7 @@ div.login-form {
 }
 
 #landing-page header {
-  background-image: url("../images/hero.jpg");
+  background-image: url('../images/hero.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -232,4 +239,169 @@ div.login-form {
 
 #landing-page nav .nav-menu a:hover {
   color: rgba(164, 220, 255, 1);
+}
+
+#landing-page .main {
+  background: #FFF;
+}
+
+#landing-page .main section {
+  padding: 100px 5%;
+  box-shadow: 0 0 50px 10px rgba(0, 0, 0, .7);
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+#landing-page .main section h2 {
+  color: #2A4A6A;
+  font-weight: bold;
+  font-size: 52px;
+  text-align: center;
+}
+
+#landing-page .main section p.subheader {
+  font-size: 18px;
+  max-width: 620px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+#landing-page .main section .grid-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+#landing-page .main section .grid-container .connect-user {
+  overflow: hidden;
+}
+
+#landing-page .main section .grid-container .build-time {
+  overflow: hidden;
+}
+
+
+#landing-page .main .features {
+  display: flex;
+}
+
+#landing-page .main .features .feature {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 35px;
+  box-sizing: border-box;
+  height: 500px;
+}
+
+#landing-page .main .features .f-1 {
+  background-image: url('../images/artists.jpg');
+}
+
+#landing-page .main .features .f-2 {
+  background-image: url('../images/wordpress.jpg');
+}
+
+#landing-page .main .features .f-3 {
+  background-image: url('../images/codedark.jpg');
+}
+
+#landing-page .main .features .feature h3 {
+  text-transform: uppercase;
+  color: #FFF;
+  text-shadow: 0 0 16px #000;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#landing-page .main .features .feature h3 span {
+  font-size: 22px;
+  color: #fff;
+}
+
+#landing-page .main .features .feature p {
+  margin: 0 0 10px;
+  color: #FFF;
+  font-size: 18px;
+  text-shadow: 0 0 15px rgba(0, 0, 0, .8);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#landing-page .main .bg {
+  padding: 170px 5%;
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: none;
+  z-index: 1;
+  background-image: url('../images/feature.jpg');
+}
+
+#landing-page .main .bg h2 {
+  font-size: 52px;
+  font-weight: normal;
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#landing-page footer {
+  padding: 55px 5% 0;
+  font: 300 14px/1.5em 'Open Sans', sans-serif;
+  color: #555;
+  background: #EDECEC;
+  line-height: 1.5em;
+  box-shadow: inset 0 5px 15px rgba(0, 0, 0, .2);
+  position: relative;
+  z-index: 3;
+  -webkit-font-smoothing: antialiased;
+}
+
+#landing-page .grid-container  {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#landing-page footer .copyright {
+  color: #888;
+  text-align: center;
+  padding: 25px 0 25px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#landing-page footer .links h6 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+#landing-page footer .links a {
+  color: #888;
+  padding: 4px 0;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  transition: color .1s ease-out;
+}
+
+#landing-page footer .author {
+  color: #333;
+}
+
+#landing-page footer .links a:hover {
+  color: #333;
 }

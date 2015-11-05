@@ -44,7 +44,7 @@
       </div>
       <div class="line line-dashed">
         <p class="text-muted text-center">Do you have an account?</p>
-        <a class="btn btn-info btn-full sign-up" href="/sign_up"> Create an account </a>
+        <a class="btn btn-default btn-full sign-up" href="/sign_up"> Create an account </a>
       </div>
       <div class="login-bottom-links">
         <a class="link" href="/password/new">Forgot password?</a>
@@ -55,7 +55,7 @@
   <footer id="footer">
     <div class="text-center padder clearfix">
       <p class="social-footer text-primary">
-        Golang – App Made Easier © 2015
+        BestForYou – Goal-Tracking App © 2015
         <br>
         <br>
         <a class="btn btn-lg" href="https://twitter.com/locnpq" target="_blank"><i class="fa fa-twitter"></i></a>

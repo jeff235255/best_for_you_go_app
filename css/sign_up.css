@@ -1,0 +1,90 @@
+.sign-up-container {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background: #fff;
+}
+
+.sign-up-container .logo-content {
+  height: 270px;
+  background: #3B4B69;
+  width: 100%;
+}
+
+.sign-up-container .logo-header {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.sign-up-form {
+	width: 640px;
+	position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.sign-up-form .text-primary {
+	font-size: 13px;
+}
+
+.sign-up-form .panel {
+	margin-bottom: 17px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+} 
+
+
+.sign-up-form .input-group {
+  background: #fff;
+  border-color: #ebebec;
+  width: 100%;
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 3px;
+}
+
+.sign-up-form .input-group .form-control {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.sign-up-form .input-group .form-control:focus {
+  box-shadow: none;
+}
+
+.sign-up-form .input-group-addon {
+  background: transparent;
+  border: 0;
+  position: relative;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555555;
+  text-align: center;
+  background-color: transparent;
+  border: 0 !important;
+  border-radius: 0;
+}
+
+
+.sign-up-form .f-group {
+	padding: 0 20px 10px 20px;
+}
+
+.sign-up-form .f-group .input-group {
+	margin-top: 20px;
+  border: 1px solid #ebebec;
+}
+
+.sign-up-form .form-group .sign-up {
+	color: #777;
+}

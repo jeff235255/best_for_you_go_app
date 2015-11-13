@@ -1,0 +1,30 @@
+/* common css style */
+.text-center {
+  text-align: center;
+}
+  
+.text-primary {
+  color: #949494;
+}
+
+.text-left {
+  text-align: left; 
+}
+
+.pull-left {
+  float: left;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.btn-full {
+  width: 100%;
+  display: inline-block;
+  color: white;
+}
+
+body {
+  background: #f7f7f7;
+}

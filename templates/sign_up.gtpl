@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>First app with golang</title>
+  <title>Sign up – BestForYou – Goal-Tracking App © 2015</title>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/common.css">
+  <link rel="stylesheet" type="text/css" href="/css/sign_in.css">
+  <link rel="stylesheet" type="text/css" href="/css/sign_up.css">
 </head>
 <body>
-  <div class="login-container">
+  <div class="sign-up-container">
     <div class="logo-content">
       <div class="logo-header">
         <img src="images/jinjiplus_app_logo.png">

@@ -16,43 +16,65 @@
       </div>
     </div>
   </div>
-  <div class="login-form">
-    <form action="/login" method="post" novalidate="novalidate">
-      <div class="form-group">
-        <div class="input-group">
-          <div class="input-group-addon">
-            <i class="fa fa-user"></i>
+  <div class="sign-up-form rows">
+    <div class="m-t-large col-lg-10 col-lg-offset-1">
+      <section class="panel">
+        <form action="/login" method="post" novalidate="novalidate" id="new-user">
+          <div class="form-group f-group">
+            <h4 class="text-primary text-left">Enter your information details below</h4>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="fa fa-info"></i>
+              </div>
+              <input class="form-control" type="text" name="first_name_user" placeholder="First name">
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="fa fa-info"></i>
+              </div>
+              <input class="form-control" type="text" name="last_name_user" placeholder="Last name">
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="fa fa-user"></i>
+              </div>
+              <input class="form-control" type="text" name="username_user" placeholder="User name">
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="fa fa-envelope-o"></i>
+              </div>
+              <input class="form-control" type="email" name="email_user" placeholder="Email">
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="fa fa-key"></i>
+              </div>
+              <input class="form-control" type="password" name="password_user" placeholder="Password">
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon">
+                <i class="fa fa-key"></i>
+              </div>
+              <input class="form-control" type="password" name="re_password_user" placeholder="Re-type Password">
+            </div>
+           
           </div>
-          <input class="form-control" type="text" name="username" placeholder="Eg. Username or test@example.com">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="input-group">
-          <div class="input-group-addon">
-            <i class="fa fa-key"></i>
+          <div class="form-group clear f-group text-primary">
+            Agree Terms And Privacy Policy
           </div>
-          <input class="form-control" type="password" name="password" placeholder="Password">
-        </div>
-      </div>
-      <div class="form-group">
-        <button class="btn btn-info btn-full" type="submit">Sign in</button>
-      </div>
-      <div class="form-group">
-        <a class="facebook-button btn btn-default btn-lg btn-block btn-icon" href="/auth/facebook"><i class="fa fa-facebook"></i>Sign in with Facebook</a>
-      </div>
-      <div class="form-group">
-        <a class="google-button btn btn-default btn-lg btn-block" href="/auth/google_oauth2"><i class="fa fa-google-plus-square"></i>Sign in with Google
-        </a>
-      </div>
-      <div class="line line-dashed">
-        <p class="text-muted text-center">Do you have an account?</p>
-        <a class="btn btn-info btn-full sign-up" href="/sign_up"> Create an account </a>
-      </div>
-      <div class="login-bottom-links">
-        <a class="link" href="/password/new">Forgot password?</a>
-      </div>
-      
-    </form>
+          <div class="form-group f-group">
+            <button class="btn btn-info btn-full" type="submit">Sign up</button>
+          </div> 
+          <div class="form-group f-group">
+            <h4 class="text-primary">Already have an account?</h4>
+          </div>
+          <div class="form-group f-group">
+            <a class="btn btn-default btn-full sign-up" href="/sign_in"> Sign in </a>
+          </div>
+        </form>
+      </section>
+    </div>
   </div>
   <footer id="footer">
     <div class="text-center padder clearfix">
